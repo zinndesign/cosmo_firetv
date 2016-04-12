@@ -78,7 +78,7 @@
             $xml.find("item").each(function() {
                 var $this = $(this);
                 var item = {
-                    title: $this.find('title').text(),
+                    title: $this.find('media\\:title, title').first().text(),
                     link: $this.find('gopher\\:source, source').text(),
                     description: $this.find('media\\:description, description').eq(0).text(),
                     pubDate: exports.utils.formatDate($this.find('pubDate').text()),

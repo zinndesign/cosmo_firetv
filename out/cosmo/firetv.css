@@ -45,7 +45,9 @@ div {
   position: relative;
   width: inherit;
   height: inherit;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #EC008C;
+  background-image: linear-gradient(135deg, #EC008C, #EC008C, #C90000); }
 
 .app-top-bar {
   position: absolute;
@@ -100,7 +102,7 @@ div {
   margin-top: -148px; }
 
 .leftnav-menu-scrolling-list {
-  color: #b9bbbd; }
+  color: #ffffff; }
 
 .leftnav-list-item-static.leftnav-list-item-chosen.subcat-header {
   position: absolute;
@@ -114,6 +116,7 @@ div {
   line-height: 2;
   font-weight: lighter;
   font-size: 1.7em;
+  text-transform: uppercase;
   min-height: 90px;
   padding: 0 50px 0 150px;
   overflow: hidden;
@@ -152,15 +155,16 @@ div {
   filter: brightness(200%); }
 
 .leftnav-list-item-container .leftnav-list-item-selected {
-  color: #000000;
+  color: #EC008C;
   background: #ffffff url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
 
 .leftnav-list-item-chosen {
-  border-color: #3f484f;
+  border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 1px 1px 1px 0px;
   color: #e8e8e8;
-  background: #3f484f url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.1) url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
 
 .search-icon {
   height: 50px;
@@ -256,9 +260,11 @@ div {
     -moz-line-clamp: 1;
     line-clamp: 1; }
   .one-D-details-summary-text .one-D-summary-pubdate {
-    font-weight: 200;
+    font-weight: 100;
     height: 30px;
     font-size: 1em;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
     color: #b9bbbd; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-now-live {
       color: #FF704D; }
@@ -266,10 +272,13 @@ div {
       color: #66E066; }
   .one-D-details-summary-text .one-D-summary-description {
     color: #e8e8e8;
-    font-style: italic;
     font-size: 1.1em;
+    font-family: Georgia, Times, serif;
+    font-weight: lighter;
+    line-height: 1.2em;
     overflow: hidden;
     align-items: center;
+    padding-top: 20px;
     display: -webkit-box;
     /* NEW - Chrome */
     display: -moz-box;
