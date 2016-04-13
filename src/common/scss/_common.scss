@@ -167,6 +167,8 @@ div {
     border : none;
     width  : 100%;
     color  : $color-menu-search-text;
+    text-transform: lowercase;
+    font-family: $font-family-medium;
     padding-left : 140px;
     background-image    : $img-icon-search;
     background-position : 85px 30px;
