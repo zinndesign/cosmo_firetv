@@ -65,7 +65,7 @@ div {
     top    : 0;
     left   : 0;
     height : 100%;
-    width  : 44%;
+    width  : 30%;
     margin : 0;
 }
 
@@ -228,9 +228,9 @@ div {
     left     : $pos-left-content-position;
     color    : $color-title-text;
     .one-D-summary-title {
-        line-height: 1.4;
+        line-height: 1.2;
         color       : $color-title-text;
-        font-size   : 1.8em;
+        font-size   : 1.6em;
         font-family : $font-family-medium;
         height      : 62px;
         overflow    : hidden;
@@ -240,12 +240,13 @@ div {
         @include line-clamp(1);
     }
     .one-D-summary-pubdate {
-        font-weight: 100;
+        font-weight: lighter;
         height : 30px;
         font-size: 1em;
         font-style  : italic;
         font-family : $font-family-body;
         color : $color-meta-secondary-text;
+        margin-top: 3px;
         .time-now-live {
             color: $color-time-live-text;
         }

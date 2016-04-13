@@ -76,7 +76,7 @@ body {
   position: absolute;
   padding: 0;
   margin: 0;
-  font-size: 20pt;
+  font-size: 22pt;
   font-family: "NewsGothicCond", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
   background: #000000 none no-repeat left top;
   background-size: 100% 100%; }
@@ -114,7 +114,7 @@ div {
   top: 0;
   left: 0;
   height: 100%;
-  width: 44%;
+  width: 30%;
   margin: 0; }
 
 .leftnav-menu-list, .leftnav-menulist-expanded, .leftnav-menulist-collapsed {
@@ -283,9 +283,9 @@ div {
   left: 150px;
   color: #B3DAF2; }
   .one-D-details-summary-text .one-D-summary-title {
-    line-height: 1.4;
+    line-height: 1.2;
     color: #B3DAF2;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-family: "NewsGothicCond", "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
     height: 62px;
     overflow: hidden;
@@ -305,12 +305,13 @@ div {
     -moz-line-clamp: 1;
     line-clamp: 1; }
   .one-D-details-summary-text .one-D-summary-pubdate {
-    font-weight: 100;
+    font-weight: lighter;
     height: 30px;
     font-size: 1em;
     font-style: italic;
     font-family: Georgia, Times, serif;
-    color: #b3b3b3; }
+    color: #b3b3b3;
+    margin-top: 3px; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-now-live {
       color: #FF704D; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-upcoming {
