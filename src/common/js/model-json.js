@@ -24,6 +24,14 @@
          //timeout default to 1 min
          this.TIMEOUT = 60000;
 
+        // we predefine the categories and matching keywords
+        // todo: move to config file
+        this.categories = {
+            'Celebrities & Entertainment': ['celebrities','entertainment','celebs'],
+            'Beauty': ['beauty','makeup'],
+            'Style & Fashion': ['style','fashion']
+        }
+
         /**
          * This function loads the initial data needed to start the app and calls the provided callback with the data when it is fully loaded
          * @param {function} the callback function to call with the loaded data
@@ -64,6 +72,18 @@
              utils.ajaxWithRetry(requestData);
         }.bind(this);
 
+        // set categories for the JSON data
+        this.setCategories = function (keywords) {
+            var categories = this.categories,
+                keyMatches = [];
+
+            for ( var key in categories ) {
+                if (categories.hasOwnProperty(key)) {
+                    
+                }
+            }
+        };
+
        /**
         * Handles requests that contain json data
         * @param {Object} jsonData data returned from request
@@ -71,12 +91,34 @@
         this.handleJsonData = function (jsonData) {
             this.categoryData = [];
             this.currentCategory = 0;
-            this.mediaData = jsonData.media;
+            //this.mediaData = jsonData.media;
+
+            this.setCategories('monty');
+
+            // parse the Hearst JSON data into FireTV format
+            var items = jsonData.items;
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+                var mediaEntry = {
+                    id: item.guid,
+                    title: item.media_title,
+                    pubDate: item.pubdate,
+                    thumbURL: item.thumbnail,
+                    imgURL: item.thumbnail,
+                    videoURL: item.playlist,
+                    categories: item.keywords.split(', '),
+                    description: item.description
+                };
+                // add to the full list
+                this.mediaData.push(mediaEntry);
+            }
+            
             if (!jsonData.folders) {
                 this.createFoldersFromMediaData(jsonData);
             }
             this.folders = jsonData.folders;
-            this.rootFolder = this.folders[0]; 
+            this.rootFolder = this.folders[0];
+            //console.log(JSON.stringify(this.folders));
 
             // create left nav based on the folder stucture object
             for (var i = 0; i < this.rootFolder.contents.length; i++) {

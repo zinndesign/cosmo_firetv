@@ -11,5 +11,14 @@
         displayButtons: false
     };
 
-    exports.app = new App(settings);
+    var json_settings = {
+        Model: JSONMediaModel,
+        PlayerView: PlayerView,
+        PlaylistView: PlaylistPlayerView,
+        dataURL: "./assets/cosMediaData.json",
+        showSearch: true,
+        displayButtons: false
+    };
+
+    exports.app = new App(json_settings);
 }(window));
