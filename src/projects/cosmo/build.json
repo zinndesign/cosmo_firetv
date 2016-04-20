@@ -22,7 +22,7 @@
         "../../common/images/skip_indicator.png",
         "../../common/assets/video/*",
         "../../common/assets/images/*",
-        "./*MediaData.*"
+        "./cosMediaData.json"
     ],
     "appJS" : [
         "../../common/js/util.js",

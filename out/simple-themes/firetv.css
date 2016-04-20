@@ -92,7 +92,7 @@ div {
   height: inherit;
   overflow: hidden;
   background-color: #000000;
-  background-image: linear-gradient(135deg, #EC008C, #EC008C, #C90000); }
+  background-image: linear-gradient(180deg, #EC008C, #EC008C, #C90000); }
 
 .app-top-bar {
   position: absolute;
