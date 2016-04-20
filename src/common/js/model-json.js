@@ -25,12 +25,7 @@
          this.TIMEOUT = 60000;
 
         // we predefine the categories and matching keywords
-        // todo: move to config file
-        this.categories = {
-            'Celebrities & Entertainment': ['celebrities','entertainment','celebs'],
-            'Beauty': ['beauty','makeup'],
-            'Style & Fashion': ['style','fashion']
-        }
+	    this.categories = appSettings.categoryKeywords;
 
         /**
          * This function loads the initial data needed to start the app and calls the provided callback with the data when it is fully loaded
@@ -75,13 +70,26 @@
         // set categories for the JSON data
         this.setCategories = function (keywords) {
             var categories = this.categories,
-                keyMatches = [];
+	            keyWordList = keywords.toLowerCase(),
+	            categoryArray = [];
 
             for ( var key in categories ) {
                 if (categories.hasOwnProperty(key)) {
-                    
+                    var matchWords = categories[key];
+	                for (var i = 0; i < matchWords.length; i++) {
+		                if(keyWordList.includes(matchWords[i]) &&
+			                jQuery.inArray(key, categoryArray) < 0) {
+			                categoryArray.push(key);
+		                }
+	                }
                 }
             }
+	        // no matches, but we need at least one category
+	        if(categoryArray.length === 0) {
+		        categoryArray.push('Etcetera');
+	        }
+
+	        return categoryArray;
         };
 
        /**
@@ -92,8 +100,6 @@
             this.categoryData = [];
             this.currentCategory = 0;
             //this.mediaData = jsonData.media;
-
-            this.setCategories('monty');
 
             // parse the Hearst JSON data into FireTV format
             var items = jsonData.items;
@@ -106,7 +112,7 @@
                     thumbURL: item.thumbnail,
                     imgURL: item.thumbnail,
                     videoURL: item.playlist,
-                    categories: item.keywords.split(', '),
+                    categories: this.setCategories(item.keywords),
                     description: item.description
                 };
                 // add to the full list
