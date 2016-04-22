@@ -74,7 +74,7 @@
         }
 
        /**
-        * Convert timestamp to formated date
+        * Convert timestamp to formatted date
         * @param {Number} date timestamp
         * @return {String}
         */

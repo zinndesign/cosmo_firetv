@@ -99,21 +99,21 @@
         this.handleJsonData = function (jsonData) {
             this.categoryData = [];
             this.currentCategory = 0;
-            //this.mediaData = jsonData.media;
 
             // parse the Hearst JSON data into FireTV format
             var items = jsonData.items;
+            console.log('total videos:', items.length);
             for (var i = 0; i < items.length; i++) {
                 var item = items[i];
                 var mediaEntry = {
                     id: item.guid,
-                    title: item.media_title,
-                    pubDate: item.pubdate,
-                    thumbURL: item.thumbnail,
-                    imgURL: item.thumbnail,
-                    videoURL: item.playlist,
-                    categories: this.setCategories(item.keywords),
-                    description: item.description
+                    title: item['media:title'],
+                    pubDate: item.pubDate,
+                    thumbURL: item['media:thumbnail'].url,
+                    imgURL: item['media:thumbnail'].url,
+                    videoURL: item['gopher:playlist'].url,
+                    categories: this.setCategories(item['media:keywords']),
+                    description: item['media:description']
                 };
                 // add to the full list
                 this.mediaData.push(mediaEntry);
@@ -123,8 +123,8 @@
                 this.createFoldersFromMediaData(jsonData);
             }
             this.folders = jsonData.folders;
-            this.rootFolder = this.folders[0];
             //console.log(JSON.stringify(this.folders));
+            this.rootFolder = this.folders[0];
 
             // create left nav based on the folder stucture object
             for (var i = 0; i < this.rootFolder.contents.length; i++) {
@@ -255,9 +255,9 @@
                 }   
              }
 
-            this.currData = this.getFullContentsForFolder(currCat);
-            this.currData = this.filterLiveData(this.currData);
-            categoryCallback(this.currData);
+             this.currData = this.getFullContentsForFolder(currCat);
+             this.currData = this.filterLiveData(this.currData);
+             categoryCallback(this.currData);
          }; 
 
          /** 
@@ -336,7 +336,7 @@
                             if(this.mediaData[i].pubDate) {
                                 this.mediaData[i].pubDate = exports.utils.formatDate(this.mediaData[i].pubDate);
                             }
-                            contents.push(this.mediaData[j]);               
+                            contents.push(this.mediaData[j]);
                         }
                     }
                 }

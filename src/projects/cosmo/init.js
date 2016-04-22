@@ -22,7 +22,7 @@
 		    'Celebrities': ['celebrities','entertainment','celebs','celebrity'],
 		    'Beauty': ['beauty','makeup','hair','hairstyle'],
 		    'Health & Fitness': ['health','fitness','exercise','working out','cosmobody'],
-		    'Sex & Love': ['sex','love','relationship','couples','romance','sex positions'],
+		    'Sex & Love': ['sex','relationship','couples','romance','sex positions'],
 		    'Style & Fashion': ['style','fashion'],
 		    'Funny': ['funny','humor'],
 		    'Politics': ['politics'],
