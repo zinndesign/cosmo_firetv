@@ -11,24 +11,21 @@
         displayButtons: false
     };
 
+	// dataURL: "./assets/cosMediaData.json",
     var json_settings = {
         Model: JSONMediaModel,
         PlayerView: PlayerView,
         PlaylistView: PlaylistPlayerView,
-        dataURL: "./assets/cosMediaData.json",
+	    dataURL: "https://services.hearstmags.com/api/js/Ereader/Video?ipad_ap_id=63&per_page=40&thumb_size=750x422",
         showSearch: true,
         displayButtons: false,
 	    categoryKeywords: {
-		    'Celebrities': ['celebrities','entertainment','celebs','celebrity'],
-		    'Beauty': ['beauty','makeup','hair','hairstyle'],
-		    'Health & Fitness': ['health','fitness','exercise','working out','cosmobody'],
-		    'Sex & Love': ['sex','relationship','couples','romance','sex positions'],
-		    'Style & Fashion': ['style','fashion'],
-		    'Funny': ['funny','humor'],
-		    'Politics': ['politics'],
-		    'Travel': ['travel','leisure'],
-		    'Tutorials': ['tutorial','how to','how-to'],
-		    'Food & Drink': ['drinks','recipes','food','cocktails','dining','restaurants','eating','drinking']
+		    'Fashion & Beauty' : ['plfashion','plbeauty'],
+		    'Snack Time' : ['plfood','plsweet','plsavory','pldrink','plcocktail'],
+		    'News & Entertainment' : ['plcelebrity','plpolitcs'],
+		    'Health & Fitness' : ['plscience','plfitness','plsports'],
+		    'Sex & Relationships' : ['plrelationships'],
+		    'Lifestyle' : ['plfunny','pltravel','pldécor','pldiy']
 	    }
     };
 
