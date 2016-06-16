@@ -343,7 +343,7 @@
             }
             else {
                 if (this.rowElements[index].pubDate) {
-                    this.$el.find(".one-D-summary-pubdate").html(this.rowElements[index].pubDate.toLocaleString());
+                    this.$el.find(".one-D-summary-pubdate").html(exports.utils.formatDate(this.rowElements[index].pubDate)); // .toLocaleString()
                 }
                 this.$el.find(".one-D-summary-description").css("margin-top", "");
             }

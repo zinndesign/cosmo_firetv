@@ -35,13 +35,14 @@ $img-header        : url('assets/hp-desktop-1459518935-city.gif') !default;
 //
 
 //font-size
-$font-base-size : 20pt !default;
+$font-base-size : 22pt !default;
 
 //font-family
 $font-family-light   : 'NewsGothicCond', 'HelveticaNeue-Light', Helvetica, Arial, sans-serif !default;
 $font-family-medium  : 'NewsGothicCond', 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif !default;
 $font-family-bold    : 'NewsGothicCond', 'HelveticaNeue-Bold', Helvetica, Arial, sans-serif !default;
 
+$font-family-body    : Georgia, Times, serif !default;
 
 //Colors
 //
@@ -49,7 +50,7 @@ $font-family-bold    : 'NewsGothicCond', 'HelveticaNeue-Bold', Helvetica, Arial,
 $color-app-base-bg   : #EC008C !default;
 $color-app-header-bg : rgba(#000000, 0.1) !default;
 
-$color-overlay-bg   : #000000 !default;
+$color-overlay-bg   : #666666 !default;
 $color-overlay-text : #e8e8e8 !default;
 
 $color-app-dialog-container-bg : rgba(0, 0, 0, 0.8);
@@ -70,12 +71,12 @@ $color-meta-secondary-text: #b9bbbd !default;
 $color-description-text : #e8e8e8 !default;
 $color-box-shadow : rgba(0,0,0,0.44) !default;
 
-$color-menu-base-bg : rgba(#000000, 0.9) !default;
+$color-menu-base-bg : rgba(#222222, 0.9) !default;
 
-$color-menu-item-text :  #b9bbbd !default;
+$color-menu-item-text :  #ffffff !default;
 $color-menu-item-bg: rgba(#e8e8e8, 0.1) !default;
 $color-menu-item-chosen-text    : #e8e8e8 !default;
-$color-menu-item-chosen-bg: #3f484f !default;
+$color-menu-item-chosen-bg: rgba(#000000, 0.1) !default;
 $color-menu-item-highlight-text: #e8e8e8 !default;
 $color-menu-item-highlight-bg: #000000 !default;
 $color-menu-item-selected-text: #000000 !default;

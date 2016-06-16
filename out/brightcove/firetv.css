@@ -31,7 +31,7 @@ body {
   position: absolute;
   padding: 0;
   margin: 0;
-  font-size: 20pt;
+  font-size: 22pt;
   font-family: "NewsGothicCond", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
   background: #EC008C url("assets/bg_app.jpg") no-repeat left top;
   background-size: 100% 100%; }
@@ -45,7 +45,9 @@ div {
   position: relative;
   width: inherit;
   height: inherit;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #EC008C;
+  background-image: linear-gradient(180deg, #EC008C, #EC008C, #C90000); }
 
 .app-top-bar {
   position: absolute;
@@ -67,7 +69,7 @@ div {
   top: 0;
   left: 0;
   height: 100%;
-  width: 44%;
+  width: 30%;
   margin: 0; }
 
 .leftnav-menu-list, .leftnav-menulist-expanded, .leftnav-menulist-collapsed {
@@ -76,7 +78,7 @@ div {
   height: 100%;
   padding: 0px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.9); }
+  background-color: rgba(34, 34, 34, 0.9); }
 
 .leftnav-menulist-expanded {
   height: 100%;
@@ -100,7 +102,7 @@ div {
   margin-top: -148px; }
 
 .leftnav-menu-scrolling-list {
-  color: #b9bbbd; }
+  color: #ffffff; }
 
 .leftnav-list-item-static.leftnav-list-item-chosen.subcat-header {
   position: absolute;
@@ -114,6 +116,7 @@ div {
   line-height: 2;
   font-weight: lighter;
   font-size: 1.7em;
+  text-transform: uppercase;
   min-height: 90px;
   padding: 0 50px 0 150px;
   overflow: hidden;
@@ -152,15 +155,16 @@ div {
   filter: brightness(200%); }
 
 .leftnav-list-item-container .leftnav-list-item-selected {
-  color: #000000;
+  color: #EC008C;
   background: #ffffff url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
 
 .leftnav-list-item-chosen {
-  border-color: #3f484f;
+  border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 1px 1px 1px 0px;
   color: #e8e8e8;
-  background: #3f484f url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.1) url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
 
 .search-icon {
   height: 50px;
@@ -170,6 +174,8 @@ div {
   border: none;
   width: 100%;
   color: #e8e8e8;
+  text-transform: lowercase;
+  font-family: "NewsGothicCond", "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
   padding-left: 140px;
   background-image: url("assets/search.png");
   background-position: 85px 30px;
@@ -234,9 +240,9 @@ div {
   left: 150px;
   color: #e8e8e8; }
   .one-D-details-summary-text .one-D-summary-title {
-    line-height: 1.4;
+    line-height: 1.2;
     color: #e8e8e8;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-family: "NewsGothicCond", "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
     height: 62px;
     overflow: hidden;
@@ -256,20 +262,26 @@ div {
     -moz-line-clamp: 1;
     line-clamp: 1; }
   .one-D-details-summary-text .one-D-summary-pubdate {
-    font-weight: 200;
+    font-weight: lighter;
     height: 30px;
     font-size: 1em;
-    color: #b9bbbd; }
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    color: #b9bbbd;
+    margin-top: 3px; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-now-live {
       color: #FF704D; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-upcoming {
       color: #66E066; }
   .one-D-details-summary-text .one-D-summary-description {
     color: #e8e8e8;
-    font-style: italic;
     font-size: 1.1em;
+    font-family: Georgia, Times, serif;
+    font-weight: lighter;
+    line-height: 1.2em;
     overflow: hidden;
     align-items: center;
+    padding-top: 20px;
     display: -webkit-box;
     /* NEW - Chrome */
     display: -moz-box;
@@ -640,7 +652,7 @@ div {
   width: 100%;
   height: 100%;
   z-index: 500;
-  background-color: #000000; }
+  background-color: #666666; }
 
 .app-overlay-message {
   color: #e8e8e8;

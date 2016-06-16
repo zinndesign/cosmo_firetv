@@ -22,7 +22,7 @@
         "../../common/images/skip_indicator.png",
         "../../common/assets/video/*",
         "../../common/assets/images/*",
-        "./genericMediaData.xml"
+        "./cosMediaData.json"
     ],
     "appJS" : [
         "../../common/js/util.js",
@@ -40,11 +40,13 @@
         "../../common/js/controls-view.js",
         "../../common/js/search-input-view.js",
         "../../common/js/model-mrss.js",
+        "../../common/js/model-json.js",
         "../../common/js/app.js",
         "init.js"
     ],
     "libJS" : [
         "../../libs/jquery.js",
-        "../../libs/handlebars-v1.3.0.js"
+        "../../libs/handlebars-v1.3.0.js",
+        "../../libs/AppMeasurement.js"
     ]
 }

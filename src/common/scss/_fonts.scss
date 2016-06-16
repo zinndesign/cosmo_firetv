@@ -1,55 +1,55 @@
 @font-face {
     font-family: 'PosterDisplay';
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/13c704c4-eb4e-42a3-9dcb-856150cd0789.eot");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/13c704c4-eb4e-42a3-9dcb-856150cd0789.eot#iefix") format("embedded-opentype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d9a06819-8b68-45aa-b2f2-ec8ae5d5088e.woff2") format("woff2"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/75c26a3a-9851-4ab6-ae83-22a518d66c3d.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/3d5025d4-c2c5-43e3-93e9-4b28c309dabe.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/779a686e-79b1-4821-b363-95caa8fb7742.svg779a686e-79b1-4821-b363-95caa8fb7742") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/13c704c4-eb4e-42a3-9dcb-856150cd0789.eot");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/13c704c4-eb4e-42a3-9dcb-856150cd0789.eot#iefix") format("embedded-opentype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d9a06819-8b68-45aa-b2f2-ec8ae5d5088e.woff2") format("woff2"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/75c26a3a-9851-4ab6-ae83-22a518d66c3d.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/3d5025d4-c2c5-43e3-93e9-4b28c309dabe.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/779a686e-79b1-4821-b363-95caa8fb7742.svg779a686e-79b1-4821-b363-95caa8fb7742") format("svg");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'NewsGothicCond';
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix") format("eot"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d06fce79-d986-42b6-bad2-a5a405f15f9c.woff2") format("woff2"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/ed9561a9-bbec-4d88-9e4b-a3bab72cf2d6.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c5a84a6a-44d2-44ea-a15c-4c9a887909c6.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b81957f-3a86-4755-bf62-2fe92b5d9c26.svg#6b81957f-3a86-4755-bf62-2fe92b5d9c26") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix") format("eot"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d06fce79-d986-42b6-bad2-a5a405f15f9c.woff2") format("woff2"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/ed9561a9-bbec-4d88-9e4b-a3bab72cf2d6.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c5a84a6a-44d2-44ea-a15c-4c9a887909c6.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b81957f-3a86-4755-bf62-2fe92b5d9c26.svg#6b81957f-3a86-4755-bf62-2fe92b5d9c26") format("svg");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'NewsGothicCond';
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix") format("eot"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/2ba10860-e47d-40e0-8f01-30625e4db7b3.woff2") format("woff2"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d5af3ae5-da06-419f-a7ae-d6a24aea623f.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/f948c035-eb4e-44f2-8444-953fbae60be7.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b340c74-5b52-4f87-8a5a-51e5b7553dc3.svg#6b340c74-5b52-4f87-8a5a-51e5b7553dc3") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix") format("eot"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/2ba10860-e47d-40e0-8f01-30625e4db7b3.woff2") format("woff2"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d5af3ae5-da06-419f-a7ae-d6a24aea623f.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/f948c035-eb4e-44f2-8444-953fbae60be7.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b340c74-5b52-4f87-8a5a-51e5b7553dc3.svg#6b340c74-5b52-4f87-8a5a-51e5b7553dc3") format("svg");
     font-weight: normal;
     font-style: italic
 }
 
 @font-face {
     font-family: 'NewsGothicCond';
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix") format("eot"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d06fce79-d986-42b6-bad2-a5a405f15f9c.woff2") format("woff2"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/ed9561a9-bbec-4d88-9e4b-a3bab72cf2d6.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c5a84a6a-44d2-44ea-a15c-4c9a887909c6.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b81957f-3a86-4755-bf62-2fe92b5d9c26.svg#6b81957f-3a86-4755-bf62-2fe92b5d9c26") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bbd99d5f-5b38-4b5c-be94-0362490891e6.eot?#iefix") format("eot"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d06fce79-d986-42b6-bad2-a5a405f15f9c.woff2") format("woff2"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/ed9561a9-bbec-4d88-9e4b-a3bab72cf2d6.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c5a84a6a-44d2-44ea-a15c-4c9a887909c6.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b81957f-3a86-4755-bf62-2fe92b5d9c26.svg#6b81957f-3a86-4755-bf62-2fe92b5d9c26") format("svg");
     font-weight: bold;
     font-style: normal
 }
 
 @font-face {
     font-family: 'NewsGothicCond';
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix") format("eot"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/2ba10860-e47d-40e0-8f01-30625e4db7b3.woff2") format("woff2"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d5af3ae5-da06-419f-a7ae-d6a24aea623f.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/f948c035-eb4e-44f2-8444-953fbae60be7.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b340c74-5b52-4f87-8a5a-51e5b7553dc3.svg#6b340c74-5b52-4f87-8a5a-51e5b7553dc3") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/c6da9bc9-8b1c-46dc-b3ca-91a1e7bf0f28.eot?#iefix") format("eot"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/2ba10860-e47d-40e0-8f01-30625e4db7b3.woff2") format("woff2"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/d5af3ae5-da06-419f-a7ae-d6a24aea623f.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/f948c035-eb4e-44f2-8444-953fbae60be7.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/6b340c74-5b52-4f87-8a5a-51e5b7553dc3.svg#6b340c74-5b52-4f87-8a5a-51e5b7553dc3") format("svg");
     font-weight: bold;
     font-style: italic
 }
 
 @font-face {
     font-family: 'Modern';
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/51678e95-6132-47b7-9714-53fc8d5ca453.eot?#iefix");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/51678e95-6132-47b7-9714-53fc8d5ca453.eot?#iefix") format("eot"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bc2cf076-1615-4dc9-8cea-1393c1930273.woff2") format("woff2"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/5dc97449-72f5-4466-ae2e-d4e82b437374.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/f51dfc02-e664-4732-b43e-42cfb679c5e5.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/74483d49-368e-49ab-b676-20c63bdd1f1a.svg#74483d49-368e-49ab-b676-20c63bdd1f1a") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/51678e95-6132-47b7-9714-53fc8d5ca453.eot?#iefix");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/51678e95-6132-47b7-9714-53fc8d5ca453.eot?#iefix") format("eot"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/bc2cf076-1615-4dc9-8cea-1393c1930273.woff2") format("woff2"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/5dc97449-72f5-4466-ae2e-d4e82b437374.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/f51dfc02-e664-4732-b43e-42cfb679c5e5.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/74483d49-368e-49ab-b676-20c63bdd1f1a.svg#74483d49-368e-49ab-b676-20c63bdd1f1a") format("svg");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: "IconFont";
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.eot");
-    src: url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.eot?#iefix") format("embedded-opentype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.woff") format("woff"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.ttf") format("truetype"), url("//cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.svg?#IconFont") format("svg");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.eot");
+    src: url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.eot?#iefix") format("embedded-opentype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.woff") format("woff"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.ttf") format("truetype"), url("http://cos.h-cdn.co/assets/cosmo/20160406124816/fonts/icons/IconFont.svg?#IconFont") format("svg");
     font-weight: normal;
     font-style: normal
 }

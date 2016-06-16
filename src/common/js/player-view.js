@@ -51,6 +51,7 @@
          */
         this.canPlayHandler = function() {
             this.canplay = true;
+            this.trackEvent('open');
             //prevent triggering 'canplay' event when skipping or when video is paused
             if (!this.paused && !this.isSkipping) {
                 this.buttonDowntime = this.videoElement.currentTime;
@@ -64,6 +65,7 @@
         this.pauseEventHandler = function() {
             // we trigger the video status in the pause event handler because the pause event can come from the system
             // specifically it can be caused by the voice search functionality of Fire OS
+            this.trackEvent('pause');
             this.clearTimeouts();
             this.trigger('videoStatus', this.videoElement.currentTime, this.videoElement.duration, 'paused');
         }.bind(this);
@@ -72,6 +74,7 @@
          * Handler for video 'ended' event
          */
         this.videoEndedHandler = function() {
+            this.trackEvent('close');
             this.clearTimeouts();
             this.trigger('videoStatus', this.videoElement.currentTime, this.videoElement.duration, 'ended');
         }.bind(this);
@@ -236,6 +239,8 @@
             this.videoElement = document.createElement('video');
             this.videoElement.className = 'player-content-video';
             this.videoElement.src = video_data.videoURL;
+            this.videoElement.title = video_data.title;
+            //this.videoElement.type = 'application/x-mpegURL'; // for .m3u8
             this.videoElement.type = 'video/mp4';
             this.handleClosedCaptioning(video_data.tracks);
             this.$el.append(this.videoElement);
@@ -248,6 +253,12 @@
             this.videoElement.addEventListener("timeupdate", this.timeUpdateHandler);
             this.videoElement.addEventListener("pause", this.pauseEventHandler);
             this.videoElement.addEventListener("error", this.errorHandler);
+
+            // additional events for tracking only
+            this.videoElement.addEventListener("waiting", this.trackEvent('pause')); // buffer
+            this.videoElement.addEventListener("playing", this.trackEvent('play')); // resume after buffer
+            this.videoElement.addEventListener("seeking", this.trackEvent('pause')); // seeking
+            this.videoElement.addEventListener("seeked", this.trackEvent('play')); // resume after seek
 
             //listener for visual on video playback only - remove for non-visual on implementation
             this.videoElement.addEventListener(utils.vendorPrefix('fullscreenchange').toLowerCase(), this.fullScreenChangeHandler);
@@ -267,12 +278,36 @@
             this.knownPlayerErrorTriggered = false;
         };
 
+	    /**
+         *  Omniture tracking events
+         */
+        this.trackEvent = function(action) {
+            switch(action) {
+                case 'open':
+                    s.Media.open(this.videoElement.title, this.videoElement.duration, s.Media.playerName);
+                    break;
+                case 'play':
+                    s.Media.play(this.videoElement.title, this.videoElement.currentTime);
+                    break;
+                case 'pause':
+                    s.Media.stop(this.videoElement.title, this.videoElement.currentTime);
+                    break;
+                case 'close':
+                    s.Media.stop(this.videoElement.title, this.videoElement.currentTime);
+                    s.Media.close(this.videoElement.title);
+                    break;
+                default:
+                    break;
+            }
+        };
+
         /**
          *  Start the video playing
          */
         this.playVideo = function() {
             this.videoElement.play();
             this.paused = false;
+            this.trackEvent('play');
             buttons.setButtonIntervals(this.BUTTON_INTERVALS);
             this.trigger('videoStatus', this.videoElement.currentTime, this.videoElement.duration, 'playing');
         };
@@ -286,6 +321,7 @@
             if (!this.isSkipping) {
                 this.videoElement.pause();
                 this.paused = true;
+                this.trackEvent('pause');
             }
         };
 
@@ -295,6 +331,7 @@
         this.resumeVideo = function() {
             this.videoElement.play();
             this.paused = false;
+            this.trackEvent('play');
             this.trigger('videoStatus', this.videoElement.currentTime, this.videoElement.duration, 'resumed');
         };
 

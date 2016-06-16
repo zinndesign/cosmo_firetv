@@ -24,6 +24,9 @@
          //timeout default to 1 min
          this.TIMEOUT = 60000;
 
+        // we predefine the categories and matching keywords
+	    this.categories = appSettings.categoryKeywords;
+
         /**
          * This function loads the initial data needed to start the app and calls the provided callback with the data when it is fully loaded
          * @param {function} the callback function to call with the loaded data
@@ -64,6 +67,31 @@
              utils.ajaxWithRetry(requestData);
         }.bind(this);
 
+        // set categories for the JSON data
+        this.setCategories = function (keywords) {
+            var categories = this.categories,
+	            keyWordList = keywords.toLowerCase(),
+	            categoryArray = [];
+
+            for ( var key in categories ) {
+                if (categories.hasOwnProperty(key)) {
+                    var matchWords = categories[key];
+	                for (var i = 0; i < matchWords.length; i++) {
+		                if(keyWordList.includes(matchWords[i]) &&
+			                jQuery.inArray(key, categoryArray) < 0) {
+			                categoryArray.push(key);
+		                }
+	                }
+                }
+            }
+	        // no matches, but we need at least one category
+	        if(categoryArray.length === 0) {
+		        categoryArray.push('Etcetera');
+	        }
+
+	        return categoryArray;
+        };
+
        /**
         * Handles requests that contain json data
         * @param {Object} jsonData data returned from request
@@ -71,12 +99,32 @@
         this.handleJsonData = function (jsonData) {
             this.categoryData = [];
             this.currentCategory = 0;
-            this.mediaData = jsonData.media;
+
+            // parse the Hearst JSON data into FireTV format
+            var items = jsonData.items;
+            console.log('total videos:', items.length);
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+                var mediaEntry = {
+                    id: item.guid,
+                    title: item['media:title'],
+                    pubDate: item.pubDate,
+                    thumbURL: item['media:thumbnail'].url,
+                    imgURL: item['media:thumbnail'].url,
+                    videoURL: item['gopher:playlist'].share_url,
+                    categories: this.setCategories(item['media:keywords']),
+                    description: item['media:description']
+                };
+                // add to the full list
+                this.mediaData.push(mediaEntry);
+            }
+            
             if (!jsonData.folders) {
                 this.createFoldersFromMediaData(jsonData);
             }
             this.folders = jsonData.folders;
-            this.rootFolder = this.folders[0]; 
+            //console.log(JSON.stringify(this.folders));
+            this.rootFolder = this.folders[0];
 
             // create left nav based on the folder stucture object
             for (var i = 0; i < this.rootFolder.contents.length; i++) {
@@ -207,9 +255,9 @@
                 }   
              }
 
-            this.currData = this.getFullContentsForFolder(currCat);
-            this.currData = this.filterLiveData(this.currData);
-            categoryCallback(this.currData);
+             this.currData = this.getFullContentsForFolder(currCat);
+             this.currData = this.filterLiveData(this.currData);
+             categoryCallback(this.currData);
          }; 
 
          /** 
@@ -288,7 +336,7 @@
                             if(this.mediaData[i].pubDate) {
                                 this.mediaData[i].pubDate = exports.utils.formatDate(this.mediaData[i].pubDate);
                             }
-                            contents.push(this.mediaData[j]);               
+                            contents.push(this.mediaData[j]);
                         }
                     }
                 }

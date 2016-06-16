@@ -1,0 +1,328 @@
+{
+	"version":1,
+	"links":{
+		"next":"ipad_ap_id=63&fields=gopher%3Aplaylist%2Cguid%2Cmedia%3Adescription%2Cmedia%3Akeywords%2Cmedia%3Athumbnail%2Cmedia%3Atitle%2CpubDate%2Ctitle&page=2&per_page=20&thumb_size=750x422"
+	},
+	"items":[
+		{
+			"media:title":"20 Scandalous Celeb Dresses That You'll Never Forget",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464275029/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/57471055d5593007c39dba5c/thumb_1464275029.png"
+			},
+			"media:keywords":"josephine baker, marilyn monroe, jayne mansfield, cher, carrie fisher, madonna, sharon stone, princess diana, lilâ€™ kim, jennifer lopez, bjork, lady gaga, kate middleton, pippa middleton, angelina jolie, amber rose, kim kardashian, miley cyrus, beyonce, bella hadid, outfits, fashion, celebrity fashion, style, celebrity style, plcelebrity, scandalous dress, ridiculous dress, crazy fashion, crazy celebrity fashion, crazy dresses, scandalous dresses, scandalous fashion, thorwback fashion, throwback celebrity fashion, nostalgia, celebrity nostalgia, celebs, celeb fashion, celeb style, crazy celeb fashion, cosmo, cosmopolitan, cosmopolitan.com, syndicatable",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57471055d5593007c39dba5c/mp4/ScandalousDresses_REC_SQ_JC_V3_1464275041_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57471055d5593007c39dba5c_1464275046.m3u8"
+			},
+			"media:description":"Celebs like Miley Cyrus and Lady Gaga never fail to rock fashion that shocks, but these 20 scandalous dresses were almost too much to handle. Oh, what a little skin can do.â€‹",
+			"guid":"hearst:1464275029",
+			"title":"20 Scandalous Celeb Dresses That You'll Never Forget",
+			"pubDate":"2016-05-26T15:03:49.379Z"
+		},
+		{
+			"media:title":"Little Boys Give Women Relationship Advice",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464201650/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5745f1b2d5593007cd899c15/thumb_1464201651.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, little boys, little boys giving advice, plrelationships, relationships, relationship advice, dating, dating advice, cute kids, kids giving advice",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5745f1b2d5593007cd899c15/mp4/LBGWA_SAR_YT_1464201707_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5745f1b2d5593007cd899c15_1464201730.m3u8"
+			},
+			"media:description":"\"Go with the flow and give him a breath mint.\" These adorable little boys have some seriously great relationship advice.",
+			"guid":"hearst:1464201650",
+			"title":"Little Boys Give Women Relationship Advice",
+			"pubDate":"2016-05-25T18:40:50.747Z"
+		},
+		{
+			"media:title":"What Men Wish Women Did More of in Bed",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464186852/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5745b7e4e694aa52262c11e7/thumb_1464186852.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, sex, sex positions, man on the street, carly ann filbin, men talk about sex",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5745b7e4e694aa52262c11e7/mp4/MOTS_Men_Wish_Women_v3_RD_YT_1464186883_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5745b7e4e694aa52262c11e7_1464186895.m3u8"
+			},
+			"media:description":"Ever wonder what guys wish you were doing more of in bed? Cosmopolitan.com correspondent Carly Ann Filbin gets these guys to spill. ",
+			"guid":"hearst:1464186852",
+			"title":"What Men Wish Women Did More of in Bed",
+			"pubDate":"2016-05-25T14:34:12.156Z"
+		},
+		{
+			"media:title":"Ombre Wine Granita",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464186701/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5745b74dd5593007bb96717f/thumb_1464186702.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, pldrink, cocktail, wine cocktail, summer cocktail, cocktail recipes, refreshing cocktail, red wine cocktail, white wine cocktail",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5745b74dd5593007bb96717f/mp4/OmbreWineGranita_v1_RD_YT_1464186712_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5745b74dd5593007bb96717f_1464186717.m3u8"
+			},
+			"media:description":"This icy wine cocktail is the perfect (and prettiest!) drink for summer.",
+			"guid":"hearst:1464186701",
+			"title":"Ombre Wine Granita",
+			"pubDate":"2016-05-25T14:31:41.831Z"
+		},
+		{
+			"media:title":"Clueless Guys Get Bikini Waxes",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464130208/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5744daa0d5593007c6d5d1b0/thumb_1464130209.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, clueless guys, bikini wax, waxing, manscaping, hair removal, funny",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5744daa0d5593007c6d5d1b0/mp4/CluelessWax_V3_RD_YT_1_1464130234_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5744daa0d5593007c6d5d1b0_1464130247.m3u8"
+			},
+			"media:description":"We asked these clueless guys to get bikini waxes for the first time. The results? A lot of shrieking. ",
+			"guid":"hearst:1464130208",
+			"title":"Clueless Guys Get Bikini Waxes",
+			"pubDate":"2016-05-24T22:50:08.056Z"
+		},
+		{
+			"media:title":"Around the House Sex Positions Attempted by Real People",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464127992/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5744d1f8bbddbd6c026e6398/thumb_1464127992.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, sex, sex positions, sex positions attempted by real people, funny, sexuality",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5744d1f8bbddbd6c026e6398/mp4/AroundTheHouse_SEX_MOVES_v2_SJR_YT_1464128007_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5744d1f8bbddbd6c026e6398_1464128013.m3u8"
+			},
+			"media:description":"Watch what happens when real people attempt Cosmo's craziest sex positions for around the house. ",
+			"guid":"hearst:1464127992",
+			"title":"Around the House Sex Positions Attempted by Real People",
+			"pubDate":"2016-05-24T22:13:12.167Z"
+		},
+		{
+			"media:title":"Cheeseburger Dumplings",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464124098/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5744c2c2e694aa5237d0780c/thumb_1464124098.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfood, plsavory, cheeseburger, dumpling, cheese dumpling, hamburger, fusion cuisine, asian fusion, recipes, cosmo bites, snacks, snack idea",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5744c2c2e694aa5237d0780c/mp4/DUMPLINGS_V4_YT_1464124123_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5744c2c2e694aa5237d0780c_1464124134.m3u8"
+			},
+			"media:description":"Two takeout favorites together in one cheesy, savory package!",
+			"guid":"hearst:1464124098",
+			"title":"Cheeseburger Dumplings",
+			"pubDate":"2016-05-24T21:08:18.180Z"
+		},
+		{
+			"media:title":"Lift Your Butt with Nothing But a Pair of Tights",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464110116/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/57448c24bbddbd6c14977294/thumb_1464110117.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfitness, health and fitness, fitness, health, life hacks, fitness hack, tights, stockings, butt workout, squats, resistance band, resistance workout, cosmobody",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57448c24bbddbd6c14977294/mp4/Tights_Hack_v2_YT_1464110138_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57448c24bbddbd6c14977294_1464110146.m3u8"
+			},
+			"media:description":"This simple fitness hack turns an ordinary pair of tights into a resistance band. All the butt-lifting with none of the equipment!",
+			"guid":"hearst:1464110116",
+			"title":"Lift Your Butt with Nothing But a Pair of Tights",
+			"pubDate":"2016-05-24T17:15:16.956Z"
+		},
+		{
+			"media:title":"Evil Eye Manicure ",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464031771/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/57435a1bbbddbd6c04ab8270/thumb_1464031771.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, manicure, evil eye, evil eye manicure, nail sticker, nails, cool nails, cool manicure, french tips, miss pop, plbeauty",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57435a1bbbddbd6c04ab8270/mp4/NAILART_EVIL_EYES_HYPERLAPSE_YT_RR_1464031782_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57435a1bbbddbd6c04ab8270_1464031787.m3u8"
+			},
+			"media:description":"Watch top nail artist Miss Pop at work on her signature evil eye manicure. ",
+			"guid":"hearst:1464031771",
+			"title":"Evil Eye Manicure ",
+			"pubDate":"2016-05-23T19:29:31.290Z"
+		},
+		{
+			"media:title":"How This WNBA Draft Pick Overcame Depression",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464026531/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/574345a4d5593007cd899bcf/thumb_1464026532.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, imani boyette, chicago sky, basketball, women's basketball, wnba, plsports, documentary, sports documentary, depression, overcoming depression, pro sports, pro basketball, strong women",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/574345a4d5593007cd899bcf/mp4/WNBA_Doc_V16.2_1464026578_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/574345a4d5593007cd899bcf_1464026611.m3u8"
+			},
+			"media:description":"Basketball star Imani Boyette says the sport has helped her overcome depression, suicide attempts and abuse. Follow the 21-year-old player on WNBA draft day as she reflects on her experience and looks forward to going pro.",
+			"guid":"hearst:1464026531",
+			"title":"How This WNBA Draft Pick Overcame Depression",
+			"pubDate":"2016-05-23T18:02:12.002Z"
+		},
+		{
+			"media:title":"Candace Bushnell's 10 Tips for Tinder Dating",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464026168/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/57434438e694aa52314979a3/thumb_1464026168.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, plcelebrity, candace bushnell, tinder, dating, online dating, tinder dating, dating tips, celebrity, cae, entertainment, sex and the city, satc",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57434438e694aa52314979a3/mp4/Candace_Bushnell_TinderTips_v6_sjr_YT_1464026196_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/57434438e694aa52314979a3_1464026207.m3u8"
+			},
+			"media:description":"\"Sex and the City\" creator Candace Bushnell gives her top ten tips for successful Tinder dating. (And yes, she really is on Tinder!)",
+			"guid":"hearst:1464026168",
+			"title":"Candace Bushnell's 10 Tips for Tinder Dating",
+			"pubDate":"2016-05-23T17:56:08.275Z"
+		},
+		{
+			"media:title":"Get A Flat Stomach in 5 Minutes: Week 4",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464025726/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5743427ee694aa522e51faee/thumb_1464025726.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, workout, working out, health and fitness, fitness, abs, best workouts for flat abs, flab abs, cosmoabschallenge, chelsea dornan, flat stomach, beach body, how to get a flat stomach, plfitness",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5743427ee694aa522e51faee/mp4/Chelsea_Abs_Challenge_Week_4_v2_RD_YT_1464025866_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5743427ee694aa522e51faee_1464025927.m3u8"
+			},
+			"media:description":"It's week 4-- the final week of the #CosmoAbsChallenge! In 5 minutes, sculpt your abs and get a flat stomach! #CosmoAbsChallenge",
+			"guid":"hearst:1464025726",
+			"title":"Get A Flat Stomach in 5 Minutes: Week 4",
+			"pubDate":"2016-05-23T17:48:46.291Z"
+		},
+		{
+			"media:title":"22 of the Best Looks from the 2016 Billboard Music Awards",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1464005581/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/5742f3cde694aa522e51fadc/thumb_1464005582.png"
+			},
+			"media:keywords":"plcelebrity, celebrity, celebs, billboard music awards, billboard music awards fashion, celebrity fashion, red carpet fashion, red carpet style, billboard awards, billboard awards red carpet, 2016 billboard music awards, 2016 billboard awards, ariana grande, rihanna, britney spears, kesha, meghan trainor, mila munis, kathryn hahn, kristen bell, nick jonas, demi lovato, zendaya, keke palmer, kelly rowland, lucy hale, jojo fletcher, kate beckinsale, ashton kutcher, ciara, shawn mendes, laverne cox, dnce, heidi klum, cosmo, cosmopolitan, cosmopolitan.com, syndicatable",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5742f3cde694aa522e51fadc/mp4/BillBoards_COSMO_JC_V2_1464005598_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/5742f3cde694aa522e51fadc_1464005603.m3u8"
+			},
+			"media:description":"From Britney Spears to Ariana Grande, the Billboard Music Awards were filled with stunning fashion moments. Check out 22 of the best looks from last night's pink carpet!",
+			"guid":"hearst:1464005581",
+			"title":"22 of the Best Looks from the 2016 Billboard Music Awards",
+			"pubDate":"2016-05-23T12:13:01.865Z"
+		},
+		{
+			"media:title":"Amazing Henna Designs",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463784741/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573f9525e694aa522e51facd/thumb_1463784742.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plbeauty, henna, henna design, bridal henna, beauty",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f9525e694aa522e51facd/mp4/HENNA_V2_C1_YT_1463784775_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f9525e694aa522e51facd_1463784789.m3u8"
+			},
+			"media:description":"These gorgeous henna designs will leave you mesmerized. ",
+			"guid":"hearst:1463784741",
+			"title":"Amazing Henna Designs",
+			"pubDate":"2016-05-20T22:52:21.482Z"
+		},
+		{
+			"media:title":"Hot Guy Washing Dishes ",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463780785/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573f85b1e694aa522e51fac8/thumb_1463780785.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, hot guys, shirtless guy, abs, sexy guys, dishes, chores, housework, hot man, sexy man, hunky guy",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f85b1e694aa522e51fac8/mp4/SGDT_DISHES_v1_RR_YT_1463780797_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f85b1e694aa522e51fac8_1463780802.m3u8"
+			},
+			"media:description":"This shirtless hottie is here to clean your dishes and steal your heart. ",
+			"guid":"hearst:1463780785",
+			"title":"Hot Guy Washing Dishes ",
+			"pubDate":"2016-05-20T21:46:25.590Z"
+		},
+		{
+			"media:title":"How to Add Lace to Your Shorts",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463774600/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573f6d88e694aa52345ece62/thumb_1463774600.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfashion, diy, do it yourself, diy fashion, lace, lace trim, shorts, jean shorts, lace shorts, fashion",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f6d88e694aa52345ece62/mp4/DIY_3LaceShorts_YT_1463774663_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f6d88e694aa52345ece62_1463774687.m3u8"
+			},
+			"media:description":"Repurpose your old jean shorts into super cute, super trendy lace shorts. ",
+			"guid":"hearst:1463774600",
+			"title":"How to Add Lace to Your Shorts",
+			"pubDate":"2016-05-20T20:03:20.073Z"
+		},
+		{
+			"media:title":"How to Conceal Acne Scarring",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463774435/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573f6ce3d5593007d0e4d95d/thumb_1463774436.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, acne, plbeauty, acne scarring, cover up acne, bad skin, even out skin, beauty, makeup",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f6ce3d5593007d0e4d95d/mp4/AcneScars_YT_1463774446_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f6ce3d5593007d0e4d95d_1463774451.m3u8"
+			},
+			"media:description":"Concealing acne scarring is no problem with this easy to follow tutorial. ",
+			"guid":"hearst:1463774435",
+			"title":"How to Conceal Acne Scarring",
+			"pubDate":"2016-05-20T20:00:35.347Z"
+		},
+		{
+			"media:title":"Justin Timberlake's Hair Evolution",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463769901/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573f5b2dbbddbd6c1497727c/thumb_1463769902.png"
+			},
+			"media:keywords":"justin timberlake, justin timberlake hair, justin timberlakeâ€™s hair, jt, timberlake, celebrity, plcelebrity, celebrity hair, celebrity hairstyle, celebrity style, celebrity fashion, fashion, style, hair, celebrity hair evolution, hair transformation, hair evolution, celebrity hair transformation, celebrity transformation, nsync, justin timberlake fashion, justin timberlake style, justin timberlake hairstyle, justin timberlake transformation, justin timberlake evolution, celebs, cosmo, cosmopolitan.com, cosmopolitan, syndicatable",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f5b2dbbddbd6c1497727c/mp4/JT_Hair_COSMO_REC_JC_V1_1463769916_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573f5b2dbbddbd6c1497727c_1463769920.m3u8"
+			},
+			"media:description":"Justin Timberlake has been known for his various hairstyles over the years, and my how they have changed. Check out JT's total hair evolution. ",
+			"guid":"hearst:1463769901",
+			"title":"Justin Timberlake's Hair Evolution",
+			"pubDate":"2016-05-20T18:45:01.067Z"
+		},
+		{
+			"media:title":"Little Boys Give Men Relationship Advice",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463682191/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573e048fe694aa0db8a392f7/thumb_1463682192.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, plfunny, little boys giving advice, cosmo little girls, cosmo little boys, cute, cute kid, cute kids, relationships, dating, plrelationships",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573e048fe694aa0db8a392f7/mp4/LBGMA_v4_SAR_YT_1463682229_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573e048fe694aa0db8a392f7_1463682246.m3u8"
+			},
+			"media:description":"Adorable little boys give men their best dating advice. \"Just brush your teeth.\"",
+			"guid":"hearst:1463682191",
+			"title":"Little Boys Give Men Relationship Advice",
+			"pubDate":"2016-05-19T18:23:11.767Z"
+		},
+		{
+			"media:title":"Men Talk About Their Craziest One Night Stands",
+			"media:thumbnail":{
+				"url":"http://prodmedia.hearstdigital.com.s3.amazonaws.com/aesop/video_thumbs/6f5940f44d7039d54a4ba5658a0f354f/hearst:1463681851/750x422.png",
+				"source_url":"http://thumbnails.hearstdigitalstudios.com/hearst_magazines/573e033bbbddbd46d04d4a5f/thumb_1463681852.png"
+			},
+			"media:keywords":"cosmo, cosmopolitan, syndicatable, one night stand, sex, sex stories, crazy sex, man on the street, sex and relationships, plfunny",
+			"gopher:playlist":{
+				"share_url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573e033bbbddbd46d04d4a5f/mp4/MOTS_Crazy_One_Night_v1_RD_YT_1463681874_1000_sd.mp4",
+				"url":"http://streaming.hearstdigitalstudios.com/hearst_magazines/573e033bbbddbd46d04d4a5f_1463681888.m3u8"
+			},
+			"media:description":"An elevator? A parking garage? The bathroom on a train?? These guys have some crazy one night stand stories to tell. ",
+			"guid":"hearst:1463681851",
+			"title":"Men Talk About Their Craziest One Night Stands",
+			"pubDate":"2016-05-19T18:17:31.658Z"
+		}
+	]
+}

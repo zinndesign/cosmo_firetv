@@ -34,6 +34,8 @@ div {
     width    : inherit;
     height   : inherit;
     overflow : hidden;
+    background-color: $color-app-base-bg;
+    background-image: linear-gradient(180deg, #EC008C, #EC008C, #C90000);
 }
 
 .app-top-bar {
@@ -63,7 +65,7 @@ div {
     top    : 0;
     left   : 0;
     height : 100%;
-    width  : 44%;
+    width  : 30%;
     margin : 0;
 }
 
@@ -118,6 +120,7 @@ div {
     line-height  : $size-leftnav-line-height;
     font-weight: lighter;
     font-size: 1.7em;
+    text-transform: uppercase;
     min-height : 90px;
     padding      : 0 50px 0 $pos-left-content-position;
     overflow     : hidden;
@@ -142,7 +145,7 @@ div {
 }
 
 .leftnav-list-item-container .leftnav-list-item-selected {
-    color     : $color-menu-item-selected-text;
+    color     : $color-app-base-bg;
     background: $color-menu-item-selected-bg $img-icon-leftnav no-repeat $pos-right-leftnav-arrow-icon center;
 }
 
@@ -151,6 +154,7 @@ div {
     border-style : solid;
     border-width : 1px 1px 1px 0px;
     color      : $color-menu-item-chosen-text;
+    text-transform: uppercase;
     background : $color-menu-item-chosen-bg $img-icon-leftnav no-repeat $pos-right-leftnav-arrow-icon center;
 }
 
@@ -163,6 +167,8 @@ div {
     border : none;
     width  : 100%;
     color  : $color-menu-search-text;
+    text-transform: lowercase;
+    font-family: $font-family-medium;
     padding-left : 140px;
     background-image    : $img-icon-search;
     background-position : 85px 30px;
@@ -224,9 +230,9 @@ div {
     left     : $pos-left-content-position;
     color    : $color-title-text;
     .one-D-summary-title {
-        line-height: 1.4;
+        line-height: 1.2;
         color       : $color-title-text;
-        font-size   : 1.8em;
+        font-size   : 1.6em;
         font-family : $font-family-medium;
         height      : 62px;
         overflow    : hidden;
@@ -236,10 +242,13 @@ div {
         @include line-clamp(1);
     }
     .one-D-summary-pubdate {
-        font-weight: 200;
+        font-weight: lighter;
         height : 30px;
         font-size: 1em;
+        font-style  : italic;
+        font-family : $font-family-body;
         color : $color-meta-secondary-text;
+        margin-top: 3px;
         .time-now-live {
             color: $color-time-live-text;
         }
@@ -249,10 +258,13 @@ div {
     }
     .one-D-summary-description {
         color       : $color-description-text;
-        font-style  : italic;
         font-size   : 1.1em;
+        font-family : $font-family-body;
+        font-weight: lighter;
+        line-height: 1.2em;
         overflow    : hidden;
         align-items : center;
+        padding-top: 20px;
         @include display-box;
         @include box-orient(vertical);
         @include line-clamp(2);
