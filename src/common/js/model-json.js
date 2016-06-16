@@ -111,7 +111,7 @@
                     pubDate: item.pubDate,
                     thumbURL: item['media:thumbnail'].url,
                     imgURL: item['media:thumbnail'].url,
-                    videoURL: item['gopher:playlist'].url,
+                    videoURL: item['gopher:playlist'].share_url,
                     categories: this.setCategories(item['media:keywords']),
                     description: item['media:description']
                 };

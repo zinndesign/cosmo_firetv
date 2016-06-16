@@ -46,6 +46,7 @@
     ],
     "libJS" : [
         "../../libs/jquery.js",
-        "../../libs/handlebars-v1.3.0.js"
+        "../../libs/handlebars-v1.3.0.js",
+        "../../libs/AppMeasurement.js"
     ]
 }

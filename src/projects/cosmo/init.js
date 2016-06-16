@@ -11,12 +11,16 @@
         displayButtons: false
     };
 
-	// dataURL: "./assets/cosMediaData.json",
+	// stage: http://jzinn:pr1m3au@stage.services.hearstmags.com/api/js/Ereader/Video?ipad_ap_id=63&per_page=50&thumb_size=750x422
+	// prod: https://services.hearstmags.com/api/js/Ereader/Video?ipad_ap_id=63&per_page=50&thumb_size=750x422
+	// test: http://zinndesign.com/hearst/firetv/cors_data_test.php
+
     var json_settings = {
         Model: JSONMediaModel,
         PlayerView: PlayerView,
         PlaylistView: PlaylistPlayerView,
-	    dataURL: "https://services.hearstmags.com/api/js/Ereader/Video?ipad_ap_id=63&per_page=40&thumb_size=750x422",
+	    localDataURL: "./assets/cosMediaData.json",
+	    dataURL: "http://zinndesign.com/hearst/firetv/cors_data_test.php",
         showSearch: true,
         displayButtons: false,
 	    categoryKeywords: {
