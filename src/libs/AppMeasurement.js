@@ -1,6 +1,15 @@
+// stage or prod?
+var env, baseURL = window.location.host;
+
+if(baseURL.match(/localhost|stage/i)) {
+	env = 'stage';
+} else {
+	env = 'prod';
+}
+
 //initialize AppMeasurement
-var s_account="hdmappscosmo.fire.tv"
-var s=s_gi(s_account)
+var s_account = (env == 'stage' ? "hdmappscosmo.fire.tv" : 'hdmapps.cos.firetv');
+var s=s_gi(s_account);
 
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/
 //s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE")
@@ -18,18 +27,18 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 
 /* uncomment below to use doPlugins */
-s.usePlugins=true
-function s_doPlugins(s) {
+//s.usePlugins=true;
+//function s_doPlugins(s) {
 
 // use implementation plug-ins that are defined below
 // in this section. For example, if you copied the append
 // list plug-in code below, you could call:
 // s.events=s.apl(s.events,"event1",",",1);
 
-}
-s.doPlugins=s_doPlugins
+//}
+//s.doPlugins=s_doPlugins;
 /*********Media Module Calls**************/
-s.loadModule("Media")
+s.loadModule("Media");
 
 /*Configure Media Module Functions */
 s.Media.autoTrack = false;
@@ -54,8 +63,10 @@ s.Media.contextDataMapping = null;
 //}
 
 /* Turn on and configure debugging here */
-s.debugTracking = true;
-s.trackLocal = true;
+if(env == 'stage') {
+	s.debugTracking = true;
+	s.trackLocal = true;
+}
 
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
