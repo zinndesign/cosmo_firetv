@@ -86,7 +86,9 @@
             }
 	        // no matches, but we need at least one category
 	        if(categoryArray.length === 0) {
-		        categoryArray.push('Etcetera');
+		        categoryArray.push('Lifestyle');
+                // todo: log keywords when this happens
+                console.log(keyWordList);
 	        }
 
 	        return categoryArray;
@@ -118,7 +120,9 @@
                 // add to the full list
                 this.mediaData.push(mediaEntry);
             }
-            
+
+            // FOR CHROME: videoURL: item['gopher:playlist'].share_url.replace('1000_sd','4000_hd_v3'),
+
             if (!jsonData.folders) {
                 this.createFoldersFromMediaData(jsonData);
             }
