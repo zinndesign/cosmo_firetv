@@ -26,7 +26,7 @@
 	    categoryKeywords: {
 		    'Fashion & Beauty' : ['plfashion','plbeauty'],
 		    'Snack Time' : ['plfood','plsweet','plsavory','pldrink','plcocktail'],
-		    'News & Entertainment' : ['plcelebrity','plpolitcs'],
+		    'News & Entertainment' : ['plcelebrity','plpolitics'],
 		    'Health & Fitness' : ['plscience','plfitness','plsports'],
 		    'Sex & Relationships' : ['plrelationships'],
 		    'Lifestyle' : ['plfunny','pltravel','pldécor','pldiy']
