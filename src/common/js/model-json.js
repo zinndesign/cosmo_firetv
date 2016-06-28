@@ -85,11 +85,14 @@
                 }
             }
 	        // no matches, but we need at least one category
-	        if(categoryArray.length === 0) {
-		        categoryArray.push('Lifestyle');
-                // todo: log keywords when this happens
-                console.log(keyWordList);
-	        }
+            if(categoryArray.length === 0) {
+                categoryArray.push('Lifestyle');
+                // send keywords via AJAX when no match occurs
+                $.post( "http://zinndesign.com/hearst/firetv/keyword_alert.php", { keywords: keyWordList })
+                    .done(function() {
+                        console.log("Keyword match fail: ", keyWordList);
+                    });
+            }
 
 	        return categoryArray;
         };
