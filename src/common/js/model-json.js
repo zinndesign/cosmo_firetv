@@ -27,6 +27,8 @@
         // we predefine the categories and matching keywords
 	    this.categories = appSettings.categoryKeywords;
 
+        console.log(appSettings.dataURL);
+
         /**
          * This function loads the initial data needed to start the app and calls the provided callback with the data when it is fully loaded
          * @param {function} the callback function to call with the loaded data
