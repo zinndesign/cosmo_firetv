@@ -238,10 +238,17 @@
             // create the video element
             this.videoElement = document.createElement('video');
             this.videoElement.className = 'player-content-video';
-            this.videoElement.src = video_data.videoURL;
             this.videoElement.title = video_data.title;
-            //this.videoElement.type = 'application/x-mpegURL'; // for .m3u8
-            this.videoElement.type = 'video/mp4';
+            //this.videoElement.src = video_data.videoURL;
+            //this.videoElement.setAttribute('type', 'application/x-mpegURL'); // for .m3u8
+            this.videoElement.src = video_data.hiresURL;
+            this.videoElement.setAttribute('type', 'video/mp4');
+
+            // add source as child element
+            // this.videoSource = document.createElement('source');
+            // this.videoSource.src = video_data.videoURL;
+            // this.videoSource.type = 'application/x-mpegURL'; // for .m3u8
+            // this.videoElement.appendChild(this.videoSource);
             this.handleClosedCaptioning(video_data.tracks);
             this.$el.append(this.videoElement);
 
